@@ -1,0 +1,53 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - 3000:3000
+    
+    networks:
+      - saasNet
+  auth:
+    build: ./microservices/auth
+    ports:
+      - 4000:4000
+    networks:
+      - saasNet 
+  create-chart:
+    build: ./microservices/create chart
+    ports:
+      - 4001:4001
+    networks:
+      - saasNet
+  download-templates:
+    build: ./microservices/download templates
+    ports:
+      - 4002:4002
+    networks:
+      - saasNet
+  purchase-credits:
+    build: ./microservices/purchase credits
+    ports:
+      - 4500:4500
+    networks:
+      - saasNet
+  user-charts:
+    build: ./microservices/user charts
+    ports:
+      - 4003:4003
+    networks:
+      - saasNet
+  user-info:
+    build: ./microservices/user info
+    ports:
+      - 4004:4004
+    networks:
+      - saasNet
+  
+networks:
+  saasNet:
+    name: saasNet
+    driver: bridge
+
+
+  
+  

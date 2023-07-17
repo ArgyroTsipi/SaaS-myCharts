@@ -1,0 +1,74 @@
+
+.template-logo {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    width: 15%;
+    max-height: 20vh;
+}
+
+h2 {
+    color: darkgrey;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-text {
+    color: dimgrey;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+.btn-primary {
+    background-color: darkslateblue;
+    border: darkslateblue;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active:focus {
+    color: whitesmoke;
+    background-color: #d2bed2;
+    border-color: #d2bed2;
+    text-align: center;
+    position: relative;
+}
+
+.dropzone {
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border: 2px dashed #ccc;
+    margin: 20px 0;
+}
+
+.charts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.charts-grid .div-card {
+    background: #d2bed2;
+    color: #333;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+

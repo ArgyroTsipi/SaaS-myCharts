@@ -1,0 +1,28 @@
+.vertical-scrollable > .row {
+
+    position: absolute;
+    top: 270px;
+    bottom: 50px;
+    left: 30px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+#contain{
+    position: absolute;
+    top: 260px;
+    right: 100px;
+    width: 30%;
+}
+#chart-container{
+   width:100%;
+    height:100%;
+}
+
+.col-sm-8 {
+    color: white;
+    font-size: 10px;
+    padding-bottom: 20px;
+    padding-top: 18px;
+}
+

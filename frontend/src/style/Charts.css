@@ -1,0 +1,81 @@
+.charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+.button1{
+    margin-top:10px;
+}
+
+.foot{
+    position:absolute;
+    bottom: 100px;
+}
+
+.charts-grid .div-card {
+    background: whitesmoke;
+    color: #333;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.charts-grid .div-card:hover {
+    transform: rotate(3deg);
+}
+
+.charts-grid .div-card h3 {
+    color: rgb(86, 61, 78);
+    margin-bottom: 6px;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-text {
+    color: dimgrey;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+h5 {
+    color: dimgrey;
+    font-size: calc(3px + 2vmin);
+}
+
+p {
+    color: dimgrey;
+    font-size: calc(3px + 1vmin);
+}
+
+.btn-primary {
+    background-color: darkslateblue;
+    border: darkslateblue;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active:focus {
+    color: whitesmoke;
+    background-color: #d2bed2;
+    border-color: #d2bed2;
+    text-align: center;
+    position: relative;
+}
+
+.logo-main {
+    width: 250px;
+    height: 20vh;
+
+}
