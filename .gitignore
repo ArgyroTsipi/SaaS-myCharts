@@ -1,0 +1,7 @@
+# Ignore node_modules in frontend
+frontend/node_modules/
+
+# Other common ignored files and folders
+.env
+dist/
+coverage/
